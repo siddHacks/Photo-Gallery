@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@200&family=Kanit:wght@300;500&family=Lato:ital,wght@1,700&family=Nunito+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #343f4f;
+}
+.wrapper{
+    max-width: 1200px;
+}
+.wrapper .coursel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.coursel img{
+   height: 340px;
+   object-fit: cover;
+   margin-left: 14px;
+   width: calc(100% / 3);
+}
+.coursel img:first-child{
+    margin-left: 0px;
+}
